@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bradesco Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Regular'), url('Bradesco Sans.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Italic'), url('Bradesco Sans Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Light'), url('Bradesco Sans Light.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Medium'), url('Bradesco Sans Medium.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans SemiBold'), url('Bradesco Sans Semibold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Bold'), url('Bradesco Sans Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Bold Italic'), url('Bradesco Sans Bold Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Condensed Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Condensed Book'), url('Bradesco Sans Condensed.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Thin Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Thin Thin'), url('Bradesco Sans Thin.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Thin Italic'), url('Bradesco Sans Thin Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Light Italic'), url('Bradesco Sans Light Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Medium Italic'), url('Bradesco Sans Medium Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Semibold Italic'), url('Bradesco Sans Semibold Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans Condensed Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans Condensed Bold'), url('Bradesco Sans Condensed Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans XBold XBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans XBold XBold'), url('Bradesco Sans XBold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Bradesco Sans XBold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bradesco Sans XBold Italic'), url('Bradesco Sans XBold Italic.woff') format('woff');
+  }
+
+  *{
+    font-family: 'Bradesco Sans';
+  }
