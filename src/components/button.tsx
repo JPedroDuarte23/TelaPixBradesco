@@ -22,7 +22,7 @@ export default function Button({ label, children, classname, variant = "centrali
       
     case "square": 
       return (
-        <View className="w-[100] h-[100] flex flex-col bg-white justify-center px-5 gap-2.5 rounded-xl shadow-lg shadow-black">
+        <View className="w-[100] h-[100] flex flex-col bg-white justify-center px-5 gap-3 rounded-2xl shadow-lg shadow-black">
         { children }
         <Text className={clsx("font-semibold align-middle", classname ? classname : "text-sm")}>{label}</Text>
       </View>
@@ -32,13 +32,13 @@ export default function Button({ label, children, classname, variant = "centrali
       return (
         <View className="flex-1 h-16 flex flex-row bg-white items-center gap-2 px-0 pl-4">
         { children }
-        <Text className={clsx("font-semibold align-middle w-[90]", classname ? classname : "text-sm")}>{label}</Text>
+        <Text className={clsx("font-semibold align-middle w-[92]", classname ? classname : "text-sm")}>{label}</Text>
       </View>
       )
 
     case "list":
       return (
-        <View className="rounded-2xl px-4 mb-2 py-3 h-20 w-[156] flex flex-row gap-2 bg-white items-center shadow-md shadow-black">
+        <View className="rounded-[20] px-4 mb-1 py-3 h-20 w-[159] flex flex-row gap-2 bg-white items-center shadow-md shadow-black">
           <View className="rounded-full h-10 w-10 flex items-center justify-center bg-red-100">
             { children }
           </View>

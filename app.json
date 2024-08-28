@@ -7,6 +7,9 @@
     "icon": "./assets/images/icon.png",
     "scheme": "planner",
     "userInterfaceStyle": "automatic",
+    "assets": [
+      "./assets/fonts/"
+    ],
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
